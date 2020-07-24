@@ -1,0 +1,16 @@
+#  License data.
+#
+#  v2.1
+#  https://github.com/cotes2020/jekyll-theme-chirpy
+#  © 2020 Cotes Chung
+#  MIT Licensed
+
+
+license:
+  name: MIT License
+  link: "https://github.com/danielmonettelli/renovate/blob/master/LICENSE"
+
+brief: All rights reserved.
+
+verbose: >-
+  The MIT license only requires that copyright be included in all copies, duplicate posts made of this Blog.
