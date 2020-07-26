@@ -7,7 +7,7 @@ tags: [Xamarin.Forms, UIKIT, XAML, UI, UX]
 math: true
 ---
 
-![](https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/creating-a-clean-style-library-for-xamarin-forms.png)
+<a href="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/creating-a-clean-style-library-for-xamarin-forms.png" data-fancybox><img src="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/creating-a-clean-style-library-for-xamarin-forms.png" /></a>
 
 <p style='font-size: 20px;
   color: light-grey; margin: 0px 0px 20px; font-weight: bold; font-style: italic;'>A brief introduction of how this publication originated, seeing several Xamarin.Forms projects with different ways of using styles, I said to myself, why not make a Library that is universal for any type of application?, Then I started researching Microsoft documentation, blogs, etc., and thus this great project was born.</p>
@@ -24,17 +24,17 @@ Next, I show you my configuration for XAML Styler.
 
 1.- We install the plugin, then we go to TOOLS / Options / XAML Styler and leave it just like the following images.
 
-![](https://miro.medium.com/max/746/0*4fWxHFPKT1Ygn7Yh.png)
+<a href="https://miro.medium.com/max/746/0*4fWxHFPKT1Ygn7Yh.png" data-fancybox><img src="https://miro.medium.com/max/746/0*4fWxHFPKT1Ygn7Yh.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>XAML Styler Part 1</p>
 
-![](https://miro.medium.com/max/747/0*Gj5eOmcyIZfhF_AS.png)
+<a href="https://miro.medium.com/max/747/0*Gj5eOmcyIZfhF_AS.png" data-fancybox><img src="https://miro.medium.com/max/747/0*Gj5eOmcyIZfhF_AS.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>XAML Styler Part 2</p>
 
 2.-… to then obtain this result in our XAML code.
 
-![](https://miro.medium.com/max/1364/0*kdbsOY-nK6wVTAQ3.gif)
+<a href="https://miro.medium.com/max/1364/0*kdbsOY-nK6wVTAQ3.gif" data-fancybox><img src="https://miro.medium.com/max/1364/0*kdbsOY-nK6wVTAQ3.gif" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>XAML Styler in action</p>
 
@@ -48,7 +48,7 @@ To have it included in our Visual Studio work area we will make the following co
 
 1.- Install the extension, then go to TOOLS, click on “Color Picker”, and attach it to the right side of Visual Studio.
 
-![](https://miro.medium.com/max/1364/0*eH1mBUzPenAZV7rw.gif)
+<a href="https://miro.medium.com/max/1364/0*eH1mBUzPenAZV7rw.gif" data-fancybox><img src="https://miro.medium.com/max/1364/0*eH1mBUzPenAZV7rw.gif" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Color Picker in action</p>
 
@@ -60,13 +60,13 @@ Now that we have these two great extensions, we will begin to understand the Sty
 
 Before talking about style architecture, we have to see what interfaces have in common, we can see that there are images, icons, texts and the spaces that separate it.
 
-![](https://miro.medium.com/max/1366/0*OyeYyjevSRFG_fD8.png)
+<a href="https://miro.medium.com/max/1366/0*OyeYyjevSRFG_fD8.png" data-fancybox><img src="https://miro.medium.com/max/1366/0*OyeYyjevSRFG_fD8.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>“Pokedex” design by <a href="https://dribbble.com/DanielMots" target="_blank">Daniel Motta</a></p>
 
 From there, this style architecture emerges, the following image shows the flow of the Style Library:
 
-![](https://miro.medium.com/max/1400/0*3MYqNigTDY3PWI6c.png)
+<a href="https://miro.medium.com/max/1400/0*3MYqNigTDY3PWI6c.png" data-fancybox><img src="https://miro.medium.com/max/1400/0*3MYqNigTDY3PWI6c.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Style Architecture by <a href="https://www.linkedin.com/in/danielmonetelli/" target="_blank">Daniel Monettelli</a></p>
 
@@ -80,7 +80,7 @@ The <a href="https://montemagno.com/using-font-icons-in-xamarin-forms-goodbye-im
 
 1.- On websites that offer free and paid Font Icons, a popular one is <a href="https://materialdesignicons.com/" target="_blank">MaterialDesignIcons</a>.
 
-![](https://miro.medium.com/max/1364/0*-lQ-AKwmuUYqAakU.gif)
+<a href="https://miro.medium.com/max/1364/0*-lQ-AKwmuUYqAakU.gif" data-fancybox><img src="https://miro.medium.com/max/1364/0*-lQ-AKwmuUYqAakU.gif" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>materialdesignicons-webfont.ttf</p>
 
@@ -92,19 +92,19 @@ b) In IconMoon, convert them to a custom font.
 
 c) With “ <a href="https://andreinitescu.github.io/IconFont2Code/" target="_blank">IconFontToCode</a>”, you will transform the source into code, which you will use in your Xamarin.Forms project.
 
-![](https://miro.medium.com/max/1364/0*GNL7BUaaqiwGtcvJ.gif)
+<a href="https://miro.medium.com/max/1364/0*GNL7BUaaqiwGtcvJ.gif" data-fancybox><img src="https://miro.medium.com/max/1364/0*GNL7BUaaqiwGtcvJ.gif" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>“<a href="https://www.adobe.com/la/products/xd.html" target="_blank">AdobeXD</a>” and “<a href="https://icomoon.io/" target="_blank">IconMoon</a>” in action</p>
 
 … then we copy the two sources to the Android and iOS projects.
 
-![](https://miro.medium.com/max/1364/0*rIT0bsq3KdE-U4u8.gif)
+<a href="https://miro.medium.com/max/1364/0*rIT0bsq3KdE-U4u8.gif" data-fancybox><img src="https://miro.medium.com/max/1364/0*rIT0bsq3KdE-U4u8.gif" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Font Icons on Android and iOS</p>
 
 In the .NET Standard project, create a folder called “Styles”, and two classes called “IconFont.cs” (a nexa materialdesignicons-webfont.ttf ) and “CustomIconFont.cs” ( appendix CustomIconFont.ttf ), then copy the code generated by ”<a href="https://andreinitescu.github.io/IconFont2Code/" target="_blank">IconFontToCode</a>”…
 
-![](https://miro.medium.com/max/1366/0*ahJqjwoNjF8bYLfP.png)
+<a href="https://miro.medium.com/max/1366/0*ahJqjwoNjF8bYLfP.png" data-fancybox><img src="https://miro.medium.com/max/1366/0*ahJqjwoNjF8bYLfP.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Static Classes of Font Icons</p>
 
@@ -125,7 +125,7 @@ First we add the TTF or OTF source, <a href="https://xamarinhelp.com/custom-font
 
 ---
 
-![](https://miro.medium.com/max/714/0*OUPDtt1mkGu8hlxp.png)
+<a href="https://miro.medium.com/max/714/0*OUPDtt1mkGu8hlxp.png" data-fancybox><img src="https://miro.medium.com/max/714/0*OUPDtt1mkGu8hlxp.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Fonts using OnPlatform</p>
 
@@ -136,7 +136,7 @@ Font size is an important issue, and thanks to <a href="https://material.io/desi
 
 ---
 
-![](https://miro.medium.com/max/1345/0*TCeRktvlEMDz-dED.png)
+<a href="https://miro.medium.com/max/1345/0*TCeRktvlEMDz-dED.png" data-fancybox><img src="https://miro.medium.com/max/1345/0*TCeRktvlEMDz-dED.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Scale Category by Material Design</p>
 
@@ -149,7 +149,7 @@ The abbreviation is easy to understand, and thanks to the XAML intellisense we w
 
 ---
 
-![](https://miro.medium.com/max/1275/0*444xDawNvY0QN7nz.png)
+<a href="https://miro.medium.com/max/1275/0*444xDawNvY0QN7nz.png" data-fancybox><img src="https://miro.medium.com/max/1275/0*444xDawNvY0QN7nz.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Text Style structure</p>
 
@@ -159,13 +159,13 @@ The abbreviation is easy to understand, and thanks to the XAML intellisense we w
 
 This ResourceDictionary establishes the IconFonts through OnPlatform, its structure can be seen in the following image.
 
-![](https://miro.medium.com/max/1400/0*-eopUjp788f8Qz1Q.png)
+<a href="https://miro.medium.com/max/1400/0*-eopUjp788f8Qz1Q.png" data-fancybox><img src="https://miro.medium.com/max/1400/0*-eopUjp788f8Qz1Q.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Icon fonts by OnPlatform</p>
 
 To use the IconFonts, the labeling “FontImageSource” must be created, and since we are using Shell we must separate the resources from Tabs, Flyout and Interfaces ( views that will use these resources ).
 
-![](https://miro.medium.com/max/1400/0*hH1VhCt-ioejIvcf.png)
+<a href="https://miro.medium.com/max/1400/0*hH1VhCt-ioejIvcf.png" data-fancybox><img src="https://miro.medium.com/max/1400/0*hH1VhCt-ioejIvcf.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>FontImageSource in Tabs, Flyout and Interfaces</p>
 
@@ -182,7 +182,7 @@ We regularly use GridLayout, StackLayout and Frame, therefore, the styles will b
 
 ---
 
-![](https://miro.medium.com/max/1400/0*lmSWsbMqkmPHR1iw.png)
+<a href="https://miro.medium.com/max/1400/0*lmSWsbMqkmPHR1iw.png" data-fancybox><img src="https://miro.medium.com/max/1400/0*lmSWsbMqkmPHR1iw.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Structure in Spaces.xaml</p>
 
@@ -204,13 +204,13 @@ This ResourceDictionary implements “Color”, a group of colors that will qual
 
 ---
 
-![](https://miro.medium.com/max/1137/0*V61Z2srgr6a_MJbY.png)
+<a href="https://miro.medium.com/max/1137/0*V61Z2srgr6a_MJbY.png" data-fancybox><img src="https://miro.medium.com/max/1137/0*V61Z2srgr6a_MJbY.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>White and Dark Theme</p>
 
 The help of Zeplin is very important to organize resources to the themes, only the way you use it depends, in the following gif you can see how I import colors from Zeplin to Visual Studio.
 
-![](https://miro.medium.com/max/1364/0*fBJr_-ODISGuIDI_.gif)
+<a href="https://miro.medium.com/max/1364/0*fBJr_-ODISGuIDI_.gif" data-fancybox><img src="https://miro.medium.com/max/1364/0*fBJr_-ODISGuIDI_.gif" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Zeplin in action</p>
 
@@ -220,7 +220,7 @@ The help of Zeplin is very important to organize resources to the themes, only t
 
 This ResourceDictionary merges Texts.xaml, Icons.xaml and Spaces.xaml through MergedDictionaries, thanks to <a href="https://xamarinhelp.com/merged-dictionaries-xamarin-forms/" target="_blank">Adam Pedley</a>, it is possible to separate several XAML files, and create this great style architecture.
 
-![](https://miro.medium.com/max/1170/0*ObjQGOrMDS08aZFB.png)
+<a href="https://miro.medium.com/max/1170/0*ObjQGOrMDS08aZFB.png" data-fancybox><img src="https://miro.medium.com/max/1170/0*ObjQGOrMDS08aZFB.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Use of MergedDictionaries in General.xaml</p>
 
@@ -230,7 +230,7 @@ This ResourceDictionary merges Texts.xaml, Icons.xaml and Spaces.xaml through Me
 
 The XAML App class, is the nexus of the architecture of styles and the Views of Xamarin.Forms, therefore, to link them, it is necessary to add a dictionary of resources, in this case, the source is WhiteTheme.xaml.
 
-![](https://miro.medium.com/max/1077/0*YS5-ZJoNrJtAl_YS.png)
+<a href="https://miro.medium.com/max/1077/0*YS5-ZJoNrJtAl_YS.png" data-fancybox><img src="https://miro.medium.com/max/1077/0*YS5-ZJoNrJtAl_YS.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Designated theme in App.xaml</p>
 
@@ -240,13 +240,13 @@ The XAML App class, is the nexus of the architecture of styles and the Views of 
 
 AppShell seeks to reduce the complexity of creating mobile applications by providing fundamental application architecture features. As a complete visual hierarchy, common browsing experience, URI-based routing and integrated search management ***( David Ortinau, Principal Program Manager of Microsoft )***.
 
-![](https://miro.medium.com/max/1400/0*PAvKvDaxoZeLKAu2.png)
+<a href="https://miro.medium.com/max/1400/0*PAvKvDaxoZeLKAu2.png" data-fancybox><img src="https://miro.medium.com/max/1400/0*PAvKvDaxoZeLKAu2.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Shell architecture</p>
 
 In the following image we can see the structure of Shell in broad strokes.
 
-![](https://miro.medium.com/max/1400/0*XTvBPV-mUaF3W8Fq.png)
+<a href="https://miro.medium.com/max/1400/0*XTvBPV-mUaF3W8Fq.png" data-fancybox><img src="https://miro.medium.com/max/1400/0*XTvBPV-mUaF3W8Fq.png" /></a>
 
 ---
 
@@ -256,13 +256,13 @@ They are XAML files whose base class is a ContentPage, in it we can add layouts,
 
 Binding also plays an important role, the following image shows the MainService.cs class, whose “Image_Category” property, is a font icon, and with “ImageColor_Category”, allows the color to be different in each instance, in XAML we add a Label and we include this logic.
 
-![](https://miro.medium.com/max/1256/0*UXOHw-1MrRR59IGg.png)
+<a href="https://miro.medium.com/max/1256/0*UXOHw-1MrRR59IGg.png" data-fancybox><img src="https://miro.medium.com/max/1256/0*UXOHw-1MrRR59IGg.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Logic of a list of icons</p>
 
 … With DynamicResource it will make possible the change of Themes.
 
-![](https://miro.medium.com/max/1109/0*4lUagof9I9LFwlv5.png)
+<a href="https://miro.medium.com/max/1109/0*4lUagof9I9LFwlv5.png" data-fancybox><img src="https://miro.medium.com/max/1109/0*4lUagof9I9LFwlv5.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Using DynamicResource</p>
 
@@ -274,7 +274,7 @@ The application speaks for itself, remember that the only way to do a great job 
 
 GitHub: https://github.com/danielmonettelli/XF_FoodApp
 
-![](https://miro.medium.com/max/1366/0*LwttuqqoZN9qun2s.gif)
+<a href="https://miro.medium.com/max/1366/0*LwttuqqoZN9qun2s.gif" data-fancybox><img src="https://miro.medium.com/max/1366/0*LwttuqqoZN9qun2s.gif" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Xamarin.Forms application made with the Style Library</p>
 

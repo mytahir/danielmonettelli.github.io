@@ -7,7 +7,7 @@ tags: [Xamarin.Forms, XAML, Productivity]
 math: true
 ---
 
-![](https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/whats-new-in-xamarin-forms-xaml.png)
+<a href="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/whats-new-in-xamarin-forms-xaml.png" data-fancybox><img src="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/whats-new-in-xamarin-forms-xaml.png" /></a>
 
 <p style='font-size: 20px;
   color: light-grey; margin: 0px 0px 20px; font-weight: bold; font-style: italic;'>The new features of XAML help productivity and thus reduce development time in mobile applications.</p>
@@ -31,7 +31,7 @@ The Xamarin.Forms team has put the batteries in giving the developer a pleasant 
 
 This improvement groups controls using the “Surround With…” option or with the “Ctrl + K, Ctrl + S” shortcut.
 
-![](https://miro.medium.com/max/1364/0*0tg0RfO6VXesQVoQ.gif)
+<a href="https://miro.medium.com/max/1364/0*0tg0RfO6VXesQVoQ.gif" data-fancybox><img src="https://miro.medium.com/max/1364/0*0tg0RfO6VXesQVoQ.gif" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>“Surround With…” in action</p>
 
@@ -41,7 +41,7 @@ This improvement groups controls using the “Surround With…” option or with
 
 Without a doubt this characteristic fascinates me, in C # it is good practice to separate important parts, contract them or expand them is something that a simple comment does not do, with “XAML Regions” we can reorganize our code and add good practices in the process.
 
-![](https://miro.medium.com/max/1364/0*wtNwarsUzIHqw89v.gif)
+<a href="https://miro.medium.com/max/1364/0*wtNwarsUzIHqw89v.gif" data-fancybox><img src="https://miro.medium.com/max/1364/0*wtNwarsUzIHqw89v.gif" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>“XAML Regions” in action</p>
 
@@ -49,7 +49,7 @@ Without a doubt this characteristic fascinates me, in C # it is good practice to
 
 This option allows you to go directly to an object, it is great to locate styles, binding, etc, that we are using.
 
-![](https://miro.medium.com/max/1364/0*rkau3_OuKNiBa4np.gif)
+<a href="https://miro.medium.com/max/1364/0*rkau3_OuKNiBa4np.gif" data-fancybox><img src="https://miro.medium.com/max/1364/0*rkau3_OuKNiBa4np.gif" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>“Go To Definition” in action</p>
 

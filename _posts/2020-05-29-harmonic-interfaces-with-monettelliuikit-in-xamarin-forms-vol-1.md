@@ -7,7 +7,7 @@ tags: [Xamarin.Forms, UIKIT, XAML, UI, UX]
 pin: true
 ---
 
-![](https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/harmonic_interfaces_with_monettelliuikit.png)
+<a href="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/harmonic_interfaces_with_monettelliuikit.png" data-fancybox><img src="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/harmonic_interfaces_with_monettelliuikit.png" /></a>
 
 <p style='font-size: 20px;
   color: light-grey; margin: 0px 0px 20px; font-weight: bold; font-style: italic;'>When creating interfaces in Xamarin.Forms, most developers (and myself included) use the physical device or the emulator to give the appearance of the design that is being replicated, and what about the rest of the devices that exist around the world ?</p>
@@ -22,7 +22,7 @@ Harmonic Interfaces is the balance of a group of controls with the dimensions of
 
 **Xamarin.Forms** and its powerful **Hot Reload**, allow you to visualize in real time the process of the interfaces in XAML and C #, with this great tool, I did my practices to perfect my interfaces, and to present my results in this publication.
 
-![](https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/harmonic_interface_in_action.png)
+<a href="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/harmonic_interface_in_action.png" data-fancybox><img src="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/harmonic_interface_in_action.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Harmonic Interface in action.</p>
 
@@ -32,7 +32,7 @@ Harmonic Interfaces is the balance of a group of controls with the dimensions of
 
 Xamarin.Forms has different layouts, each with a purpose, of all of them, the one indicated for me is  <a href="https://askxammy.com/working-with-gridlayout-in-xamarin-forms/" target="_blank">GridLayout</a>, because with **RowDefinitions** and **ColumnDefinitions** I can cleanly manage my controls, however what stands out is proportional mode, and that is where we will focus on this post.
 
-![](https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/gridlayout_structure.png)
+<a href="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/gridlayout_structure.png" data-fancybox><img src="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/gridlayout_structure.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>GridLayout Structure</p>
 
@@ -42,7 +42,7 @@ Xamarin.Forms has different layouts, each with a purpose, of all of them, the on
 
 The **proportional mode** is in relation to the dimensions of the device and the content involved in the interface, that is, if a certain row and/or column proportion is added to a control, it is adapted to each device.
 
-![](https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/harmonic_proportions_in_action.png)
+<a href="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/harmonic_proportions_in_action.png" data-fancybox><img src="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/harmonic_proportions_in_action.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Harmonic Proportions in action</p>
 
@@ -52,19 +52,19 @@ The **proportional mode** is in relation to the dimensions of the device and the
 
 For this, it is necessary to use a design tool***(in my case Adobe XD)***, adding semi-transparent blocks of different colors***(both for rows and columns)*** to all the spaces of your design, in order to cover the positions that the controls, remember that each design has its difficulty.
 
-![](https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/using_proportions_in_adobe_xd.png)
+<a href="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/using_proportions_in_adobe_xd.png" data-fancybox><img src="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/using_proportions_in_adobe_xd.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Using Proportions in Adobe XD</p>
 
 The <a href="https://github.com/jucaripo" target="_blank">Ing. Juan Carlos Ricalde Poveda</a>***(UI/UX Expert)***, recommends that the artboard(Adobe XD or another tool) be done with the smallest screen size(preferably Android Phones), this helps extend and not reduce the space taken up by the controls.
 
-![](https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/device_sizes_use_case.png)
+<a href="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/device_sizes_use_case.png" data-fancybox><img src="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/device_sizes_use_case.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Device Sizes use case</p>
 
 In the **"Prototype"** section, we create the flow of the designs(if there are two or more interfaces).
 
-![](https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/adobe_xd_prototype_section.png)
+<a href="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/adobe_xd_prototype_section.png" data-fancybox><img src="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/adobe_xd_prototype_section.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Adobe XD "Prototype" section</p>
 
@@ -75,7 +75,7 @@ In the **"Share"** section, in the settings part, select the **"Development"** m
 
 ---
 
-![](https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/calculation_of_proportions_in_the_link_made_for_adobe_xd.png)
+<a href="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/calculation_of_proportions_in_the_link_made_for_adobe_xd.png" data-fancybox><img src="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/calculation_of_proportions_in_the_link_made_for_adobe_xd.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Calculation of proportions in the link made for Adobe XD</p>
 
@@ -152,7 +152,7 @@ In the Xamarin.Forms XAML, add **Grid** to encapsulate the different controls th
 
 <a href="https://marketplace.visualstudio.com/items?itemName=DanielMonettelli.monettelli-forms-templates" target="_blank">MonettelliUIKIT</a> implements the **"Clean UI Style Architecture"**, which reduces the time of developing beautiful interfaces and maintaining them, then I explain the process step by step.
 
-![](https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/monettelliuikit.png)
+<a href="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/monettelliuikit.png" data-fancybox><img src="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/monettelliuikit.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'><a href="https://marketplace.visualstudio.com/items?itemName=DanielMonettelli.monettelli-forms-templates" target="_blank">MonettelliUIKIT</a></p>
 
@@ -202,7 +202,7 @@ On the other hand, **SVG's are already embedded**, thanks to the Nuget package c
 
 In the following image we can see the flow of the **MVVM Pattern**.
 
-![](https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/MVVM_Pattern.png)
+<a href="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/MVVM_Pattern.png" data-fancybox><img src="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/MVVM_Pattern.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>MVVM Pattern by <a href="https://app.pluralsight.com/library/courses/applying-mvvm-xamarin-forms-applications/table-of-contents" target="_blank">Gill Cleeren</a></p>
 
@@ -583,13 +583,13 @@ public partial class ExercisePage : ContentPage
 
 Now that you have a clear vision of what interface harmony is all about, let's apply what we have learned in the following design.
 
-![](https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/exercise_app_concept.png)
+<a href="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/exercise_app_concept.png" data-fancybox><img src="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/exercise_app_concept.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Exercise App Concept by <a href="https://dribbble.com/dew_drops" target="_blank">Shahidul Islam Shishir</a></p>
 
 Making a feedback, we analyze the design(s) in Adobe XD, we add multi-colored blocks to the rows and columns, we prototype and create the link that will help to see the distances of these blocks, and then calculate the proportions of each design.
 
-![](https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/harmonic_proportions_in_the_concept_of_exercise_application.png)
+<a href="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/harmonic_proportions_in_the_concept_of_exercise_application.png" data-fancybox><img src="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/harmonic_proportions_in_the_concept_of_exercise_application.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>"Harmonic Proportions" in the Concept of Exercise Application</p>
 
@@ -629,7 +629,7 @@ Using the **GridLayout**, we complement these proportions in **Row(Colum)Definit
 
 If you have applied each step, the result will be similar to this one.
 
-![](https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/harmony_of_interfaces_made_in_xamarin_forms.png)
+<a href="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/harmony_of_interfaces_made_in_xamarin_forms.png" data-fancybox><img src="https://raw.githubusercontent.com/danielmonettelli/danielmonettelli.github.io/master/assets/img/images/harmony_of_interfaces_made_in_xamarin_forms.png" /></a>
 <p style='text-align: center;  font-size: .8rem;
   color: light-grey; margin: -28px 0px 20px; font-weight: bold;'>Harmony of interfaces made in Xamarin.Forms</p>
 
